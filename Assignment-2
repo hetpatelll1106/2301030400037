@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Skill Swap</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4b7bec;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #3867d6;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: #4b7bec;
+    }
+
+    footer {
+      background-color: #4b7bec;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Virtual Skill Swap</h1>
+    <p>Exchange Skills and Learn Together</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#use-cases">Use Cases</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>Virtual Skill Swap is a peer-to-peer learning platform where users can host and attend workshops to share and gain skills. Whether you're a graphic designer, coder, or language enthusiast, there's something for everyone to teach and learn.</p>
+    </section>
+
+    <section id="features" class="section">
+      <h2>Features</h2>
+      <ul>
+        <li>User Profiles with skills offered and wanted</li>
+        <li>Live workshop scheduling and hosting</li>
+        <li>Skill matching algorithm</li>
+        <li>Integrated live collaboration tools</li>
+        <li>Feedback and rating system</li>
+        <li>Gamification through badges and achievements</li>
+      </ul>
+    </section>
+
+    <section id="use-cases" class="section">
+      <h2>Use Cases</h2>
+      <p>Examples of how users can benefit from Virtual Skill Swap:</p>
+      <ul>
+        <li>A designer teaches Photoshop in exchange for French lessons.</li>
+        <li>A developer hosts coding basics sessions and learns guitar.</li>
+        <li>A speaker shares communication tips and learns digital marketing.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Interested in joining or partnering? Reach out at <a href="mailto:info@skillswap.com">info@skillswap.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Virtual Skill Swap. All rights reserved.</p>
+  </footer>
+</body>
+</html>
